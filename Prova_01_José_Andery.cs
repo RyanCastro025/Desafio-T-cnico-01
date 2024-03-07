@@ -19,7 +19,7 @@ namespace Prova_Andery_10_Potos
             float altura = 155;
             Double peso = 90;
             string email = "mario@gmail.com";
-            //bool certo;
+            bool certo = false;
 
 
   
@@ -31,6 +31,7 @@ namespace Prova_Andery_10_Potos
 
             if (emailentrada == email  &&  senhaentrada == senha) 
             {
+                certo = true;
                 Console.WriteLine("                                                     Mario_Gamer087 ");      
                 Console.Write("                       Seguidores:" + quantSeguidor);
                 Console.Write("              Seguindo:" + quantVizu);
